@@ -25,7 +25,7 @@
     border: none;
     padding: 0;
 }
-.view-directory ul li.list-link {
+.view-directory ul li.list-link, div.list-link {
     text-align: center;
     background-color: #CCCC99;
     border-top: 1px solid #414141;
@@ -34,7 +34,7 @@
     border-right: 0px solid #414141;
 }
 
-.view-directory ul li.list-link a {
+.view-directory ul li.list-link a, div.list-link a {
     color: #428bca;
     font-size: 12px;
 }
@@ -46,4 +46,36 @@
 
 .view-directory .user-picture {
     float: left;
+}
+
+.page-directory-representative .view-directory h3 {
+  font-weight: normal;
+  background-color: #999999;
+  border-top: 1px solid #414141;
+  border-bottom: 0px solid #414141;
+  border-right: 0px solid #414141;
+  border-left: 0px solid #414141;
+  padding: 10px;
+  margin: 0;
+}
+
+.page-directory-representative .view-directory .item-list {
+ background-color: #ccccc0;  
+}
+
+
+.page-directory-representative .view-directory .item-list .views-field-field-contact-person {
+  display: none;
+}
+
+.page-directory-representative .view-directory .item-list ul li {
+  margin: 0;
+}
+
+.page-directory-representative .view-directory .item-list ul {
+  margin: 0;
+}
+.page-directory-representative .view-directory .views-field-field-school-name {
+  padding: 30px;
+  width: 100%
 }
