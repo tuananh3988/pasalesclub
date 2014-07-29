@@ -24,6 +24,8 @@ jQuery( document ).ready(function() {
 				jQuery(this).parents('li').before(htmlList);
 			}
 		});
+                
+                jQuery('.school_name').last().parents('li').after(htmlList);
 	}
 	else if (representative > 0) {
 		var listArr = [];
@@ -42,6 +44,7 @@ jQuery( document ).ready(function() {
 		htmlList = htmlList + '</div>';
 		var listArr = [];
 		jQuery('.view-directory .item-list.first-word').before(htmlList);
+                jQuery('.view-directory .item-list.first-word').last().after(htmlList);
 		
 	}
     

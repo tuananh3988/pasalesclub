@@ -1,21 +1,26 @@
 .view-directory .views-field-field-school-name{
     width: 50%;
     float: left;
-    background-color: #ccccc0;
+    
     border-top: 1px solid #414141;
     border-bottom: 0px solid #414141;
     border-right: 1px solid #414141;
-    border-left: 0px solid #414141;
+    border-left: 1px solid #414141;
     padding: 10px;
+}
+
+.page-subject-county .view-directory .views-row-last .views-field-field-school-name,
+.page-subject-county .view-directory .views-row-last .views-field-field-contact-person {
+    border-bottom: 1px solid #414141;
 }
 
 .view-directory .views-field-field-contact-person {
     width: 50%;
     float: left;
-    background-color: #999999;
+    
     border-top: 1px solid #414141;
     border-bottom: 0px solid #414141;
-    border-right: 0px solid #414141;
+    border-right: 1px solid #414141;
     border-left: 0px solid #414141;
     padding: 10px;
 }
@@ -27,11 +32,15 @@
 }
 .view-directory ul li.list-link, div.list-link {
     text-align: center;
-    background-color: #CCCC99;
+    
     border-top: 1px solid #414141;
     border-bottom: 0px solid #414141;
-    border-left: 0px solid #414141;
-    border-right: 0px solid #414141;
+    border-left: 1px solid #414141;
+    border-right: 1px solid #414141;
+}
+
+.view-directory ul li.list-link:last-child, div.list-link:last-child {
+    border-bottom: 1px solid #414141;
 }
 
 .view-directory ul li.list-link a, div.list-link a {
@@ -50,17 +59,17 @@
 
 .page-directory-representative .view-directory h3 {
   font-weight: normal;
-  background-color: #999999;
+  
   border-top: 1px solid #414141;
   border-bottom: 0px solid #414141;
-  border-right: 0px solid #414141;
-  border-left: 0px solid #414141;
+  border-right: 1px solid #414141;
+  border-left: 1px solid #414141;
   padding: 10px;
   margin: 0;
 }
 
 .page-directory-representative .view-directory .item-list {
- background-color: #ccccc0;  
+ 
 }
 
 
